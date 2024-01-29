@@ -1,0 +1,24 @@
+#MovieCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+
+    .card{
+        padding: 10px;
+        text-align: center;
+        border: 1px solid black;
+        margin: 20px;
+        
+
+        img{
+            width: 250px;
+        }
+        
+      
+    }
+
+
+}

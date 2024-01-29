@@ -1,0 +1,64 @@
+#Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  z-index: 0;
+  
+  
+
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 15px;
+
+    .logoicon {
+      height: 100%;
+      width: 40px;
+      padding: 5px;
+    }
+
+    h1 {
+      border-left: 2px solid red;
+      border-bottom: 2px solid red;
+      padding: 5px;
+      color: black;
+    }
+    span {
+      color: red;
+    }
+  }
+
+  .search {
+    padding: 5px;
+    margin-right: 15px;
+    
+
+
+    ul{
+      position: absolute;
+      list-style-type: none;
+      background-color: grey;
+      border: 1px solid black;
+    }
+
+     .drop {
+        
+      border: 1px solid black;
+        
+        
+      }
+  
+    
+    }
+  }
+      
+        
+        
+        
+
+        
+        
+        
+

@@ -1,0 +1,54 @@
+#singleMovie{
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
+  h1{
+    padding: 20px;
+    text-align: center;
+  }
+
+    .wrapper{
+        display: flex;
+
+        img{
+            height: 700px;
+        }
+
+
+        .wrapper-data{
+            padding: 40px;
+
+
+            h3 {
+                padding: 10px;
+            }
+
+
+           .seasons > div > ul > li {
+            list-style-position: inside;
+           }
+
+           .cast > div > ul > li {
+            list-style-position: inside;
+           } 
+        }
+    }
+
+
+    .details{
+        border: 1px solid black;
+        margin: 20px 100px 20px 100px;
+        
+
+        h3{
+            padding: 10px 0 0 20px;
+        }
+
+        p{
+            padding: 10px;
+        }
+    }
+}
